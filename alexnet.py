@@ -6,9 +6,9 @@ Created on Fri Apr  5 09:07:11 2019
 @author: fanzy
 """
 
-import loaddata
-import loss_history
-import plot_loss
+from utils import loaddata
+from utils import loss_history
+from utils import plot_loss
 import os
 import cv2
 import numpy as np
