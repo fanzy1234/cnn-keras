@@ -23,7 +23,6 @@ size=227
 x_train,x_test,y_train,y_test=loaddata.catdogimg(path,size,0.3)
 
 model=Sequential()
-# -*- coding: utf-8 -*-
 #1st layer
 model.add(Conv2D(filters=96,kernel_size=(11,11),padding='valid',
                  input_shape=(size,size,3),activation='tanh',strides=(4,4)))
